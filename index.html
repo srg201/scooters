@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Електросамокати</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#footer" class="header__logo">
+                <picture>
+                    <source srcset="img/logo.svg">
+                    <img width="145" height="45" src="img/logo.svg" alt="Логотип">
+                </picture>
+            </a>
+            <nav class="nav header-nav">
+                <ul class="header-list">
+                    <li class="header-list__item"><a href="#why" class="header__link">Чому ми?</a></li>
+                    <li class="header-list__item"><a href="#scooters" class="header__link">Наші&nbsp;самокати</a></li>
+                    <li class="header-list__item"><a href="#guarantee" class="header__link">Гарантія</a></li>
+                    <li class="header-list__item"><a href="#footer" class="header__link">Контакти</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+380665220022" class="header__phone">
+                <span>
+                    <svg width="36" height="24">
+                        <rect width="36" height="12" fill="#005BBB" />
+                        <rect width="36" height="12" y="12" fill="#FFD500" />
+                    </svg>
+                </span>
+                +380 (66) 522 00 22
+            </a>
+            <button class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-container">
+                <div class="hero-wrap">
+                    <h1 class="hero__title">Електросамокати</h1>
+                    <p class="hero__text text">Легко, зручно, екологічно!</p>
+                    <a href="#footer" class="hero__btn btn">Зателефонувати</a>
+                </div>
+                <ul class="hero-benefits__list">
+                    <li class="hero-benefits__item">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.3312 15.0719C20.9842 11.8957 25.5713 9.99415 30.4 9.6543V14.3999C30.4 14.8242 30.5686 15.2312 30.8687 15.5313C31.1687 15.8313 31.5757 15.9999 32 15.9999C32.4244 15.9999 32.8313 15.8313 33.1314 15.5313C33.4315 15.2312 33.6 14.8242 33.6 14.3999V9.6575C38.6986 10.023 43.519 12.1207 47.2616 15.6025C51.0041 19.0843 53.4439 23.7409 54.176 28.7999H48C47.5757 28.7999 47.1687 28.9685 46.8686 29.2685C46.5686 29.5686 46.4 29.9756 46.4 30.3999C46.4 30.8243 46.5686 31.2312 46.8686 31.5313C47.1687 31.8313 47.5757 31.9999 48 31.9999H54.4C54.3962 35.0919 53.7674 38.1513 52.5516 40.9943C51.3358 43.8373 49.5579 46.4052 47.3248 48.5439C47.0307 48.8383 46.8629 49.2358 46.857 49.6519C46.8511 50.068 47.0075 50.47 47.2931 50.7727C47.5787 51.0754 47.971 51.2549 48.3868 51.2731C48.8025 51.2913 49.209 51.1468 49.52 50.8703C52.0703 48.4328 54.1009 45.5043 55.4895 42.2613C56.8782 39.0183 57.5961 35.5277 57.6 31.9999C57.6 25.2104 54.9029 18.6989 50.102 13.898C45.301 9.09704 38.7896 6.3999 32 6.3999C25.2105 6.3999 18.699 9.09704 13.8981 13.898C9.09716 18.6989 6.40002 25.2104 6.40002 31.9999C6.40002 39.3439 9.66402 46.2079 14.6016 50.8703C14.7546 51.0144 14.9344 51.127 15.1309 51.2017C15.3274 51.2763 15.5367 51.3115 15.7467 51.3053C15.9568 51.299 16.1636 51.2515 16.3553 51.1653C16.547 51.0791 16.7199 50.9561 16.864 50.8031C17.0082 50.6501 17.1208 50.4703 17.1954 50.2738C17.27 50.0773 17.3052 49.8681 17.299 49.658C17.2927 49.4479 17.2452 49.2411 17.159 49.0494C17.0729 48.8577 16.9498 48.6848 16.7968 48.5407C12.464 44.4479 9.60002 38.4095 9.60002 31.9999H16C16.4244 31.9999 16.8313 31.8313 17.1314 31.5313C17.4315 31.2312 17.6 30.8243 17.6 30.3999C17.6 29.9756 17.4315 29.5686 17.1314 29.2685C16.8313 28.9685 16.4244 28.7999 16 28.7999H9.82402C10.4345 24.5529 12.2566 20.572 15.072 17.3343L19.6672 21.9327C19.9677 22.2331 20.3751 22.4019 20.8 22.4019C21.2249 22.4019 21.6324 22.2331 21.9328 21.9327C22.2333 21.6323 22.402 21.2248 22.402 20.7999C22.402 20.375 22.2333 19.9675 21.9328 19.6671L17.3312 15.0719ZM43.0368 18.5823C43.3276 18.3514 43.6897 18.2287 44.061 18.2355C44.4322 18.2422 44.7896 18.3779 45.0718 18.6193C45.354 18.8606 45.5435 19.1926 45.6078 19.5584C45.672 19.9241 45.6071 20.3008 45.424 20.6239L45.072 21.2511C43.7852 23.5234 42.4902 25.7912 41.1872 28.0543C40.1455 29.8653 39.0895 31.668 38.0192 33.4623C37.6181 34.1373 37.2085 34.8073 36.7904 35.4719C36.4704 35.9743 36.1568 36.4511 35.9264 36.7199C35.0998 37.6883 33.9223 38.2886 32.6531 38.3888C31.3839 38.489 30.1268 38.0809 29.1584 37.2543C28.1901 36.4277 27.5897 35.2502 27.4895 33.981C27.3893 32.7117 27.7974 31.4547 28.624 30.4863C28.8544 30.2175 29.2736 29.8303 29.7216 29.4367C30.2016 29.0111 30.8192 28.4895 31.5136 27.9039C32.9088 26.7391 34.656 25.3119 36.3584 23.9359C38.389 22.2933 40.4263 20.6592 42.4704 19.0335L43.0368 18.5855V18.5823Z"
+                                fill="#FCB733" />
+                        </svg>
+                        <p class="hero-benefits__desc">до&nbsp;35&nbsp;км/год</p>
+                    </li>
+                    <li class="hero-benefits__item">
+                        <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.5417 45.9167L26.5833 36.25H22.9583V29L16.9167 38.6667H20.5417V45.9167ZM14.5 24.1667H29V12.0833H14.5V24.1667ZM14.5 45.9167H29V29H14.5V45.9167ZM9.66666 50.75V12.0833C9.66666 10.7542 10.1403 9.61592 11.0877 8.66858C12.0334 7.72286 13.1708 7.25 14.5 7.25H29C30.3292 7.25 31.4674 7.72286 32.4147 8.66858C33.3605 9.61592 33.8333 10.7542 33.8333 12.0833V29H36.25C37.5792 29 38.7174 29.4729 39.6647 30.4186C40.6105 31.3659 41.0833 32.5042 41.0833 33.8333V44.7083C41.0833 45.3931 41.3653 45.9666 41.9292 46.429C42.493 46.893 43.1174 47.125 43.8021 47.125C44.5271 47.125 45.1619 46.893 45.7064 46.429C46.2494 45.9666 46.5208 45.3931 46.5208 44.7083V21.75H45.9167C45.2319 21.75 44.6584 21.518 44.196 21.054C43.732 20.5916 43.5 20.0181 43.5 19.3333V14.5H44.7083V10.875H47.125V14.5H49.5417V10.875H51.9583V14.5H53.1667V19.3333C53.1667 20.0181 52.9347 20.5916 52.4707 21.054C52.0083 21.518 51.4347 21.75 50.75 21.75H50.1458V44.7083C50.1458 46.4 49.532 47.8299 48.3043 48.9979C47.0751 50.166 45.5743 50.75 43.8021 50.75C42.0701 50.75 40.5799 50.166 39.3312 48.9979C38.0826 47.8299 37.4583 46.4 37.4583 44.7083V32.625H33.8333V50.75H9.66666ZM29 45.9167H14.5H29Z"
+                                fill="#FCB733" />
+                        </svg>
+                        <p class="hero-benefits__desc">до&nbsp;25&nbsp;км</p>
+                    </li>
+                    <li class="hero-benefits__item">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M55.3711 24.1406H40.3711C40.1133 24.1406 39.9023 24.3516 39.9023 24.6094V27.4219C39.9023 27.6797 40.1133 27.8906 40.3711 27.8906H55.3711C55.6289 27.8906 55.8398 27.6797 55.8398 27.4219V24.6094C55.8398 24.3516 55.6289 24.1406 55.3711 24.1406ZM47.5195 32.1094H40.3711C40.1133 32.1094 39.9023 32.3203 39.9023 32.5781V35.3906C39.9023 35.6484 40.1133 35.8594 40.3711 35.8594H47.5195C47.7773 35.8594 47.9883 35.6484 47.9883 35.3906V32.5781C47.9883 32.3203 47.7773 32.1094 47.5195 32.1094ZM27.9668 18.8965H25.4297C25.0664 18.8965 24.7734 19.1895 24.7734 19.5527V34.084C24.7734 34.2949 24.873 34.4883 25.043 34.6113L33.7676 40.9746C34.0605 41.1855 34.4707 41.127 34.6816 40.834L36.1875 38.7773V38.7715C36.3984 38.4785 36.334 38.0684 36.041 37.8574L28.6172 32.4902V19.5527C28.623 19.1895 28.3242 18.8965 27.9668 18.8965Z"
+                                fill="#FCB733" />
+                            <path
+                                d="M47.1562 39.4862H43.7695C43.4414 39.4862 43.1309 39.6561 42.9551 39.9373C42.2109 41.1151 41.3437 42.2049 40.3477 43.201C38.6309 44.9178 36.6328 46.2655 34.4121 47.203C32.1094 48.1756 29.666 48.6678 27.1465 48.6678C24.6211 48.6678 22.1777 48.1756 19.8809 47.203C17.6601 46.2655 15.6621 44.9178 13.9453 43.201C12.2285 41.4842 10.8809 39.4862 9.94335 37.2655C8.9707 34.9686 8.47851 32.5252 8.47851 29.9998C8.47851 27.4744 8.9707 25.0369 9.94335 22.7342C10.8809 20.5135 12.2285 18.5155 13.9453 16.7987C15.6621 15.0819 17.6601 13.7342 19.8809 12.7967C22.1777 11.8241 24.6269 11.3319 27.1465 11.3319C29.6719 11.3319 32.1152 11.8241 34.4121 12.7967C36.6328 13.7342 38.6309 15.0819 40.3477 16.7987C41.3437 17.7948 42.2109 18.8846 42.9551 20.0623C43.1309 20.3436 43.4414 20.5135 43.7695 20.5135H47.1562C47.5605 20.5135 47.8184 20.0916 47.6367 19.7342C43.8164 12.1346 36.0703 7.19515 27.4219 7.09554C14.7598 6.93733 4.24218 17.3026 4.21874 29.953C4.19531 42.6268 14.4668 52.91 27.1406 52.91C35.9004 52.91 43.7754 47.953 47.6367 40.2655C47.8184 39.908 47.5547 39.4862 47.1562 39.4862Z"
+                                fill="#FCB733" />
+                        </svg>
+                        <p class="hero-benefits__desc">гарантія 1&nbsp;рік</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="why" class="why">
+            <div class="container why-container">
+                <h2 class="why__title title">Чому саме <span>електросамокат</span>?</h2>
+                <ul class="why-list">
+                    <li class="why-list-item">
+                        <h3 class="why-list__title">
+                            <span class="big">01</span>
+                            Комфортний і&nbsp;компактний
+                        </h3>
+                        <div class="why-list-item__bottom">
+                            <div class="why-list-bottom-left">
+                                <p class="why-list__descr">Cкладна конструкція робить його зручним для зберігання,
+                                    перенесення та&nbsp;транспортування, що&nbsp;дарує комфорт, яскраві
+                                    та&nbsp;позитивні емоції при
+                                    його
+                                    використанні.</p>
+                            </div>
+                            <img class="why-list__img" src="img/scooters1.webp" alt="Фото">
+                        </div>
+                    </li>
+                    <li class="why-list-item">
+                        <h3 class="why-list__title">
+                            <span class="big">02</span>
+                            Сучасний та&nbsp;стильний
+                        </h3>
+                        <div class="why-list-item__bottom">
+                            <div class="why-list-bottom-left">
+                                <p class="why-list__descr">Забарвлення корпусу робить транспорт стильним, елегантним і
+                                    придатним як&nbsp;для роботи, так і&nbsp;для веселого проведення часу
+                                    на&nbsp;свіжому повітрі в
+                                    колі
+                                    друзів.</p>
+                            </div>
+                            <img class="why-list__img" src="img/scooters2.webp" alt="Фото">
+                        </div>
+                    </li>
+                    <li class="why-list-item">
+                        <h3 class="why-list__title">
+                            <span class="big">03</span>
+                            Надійний та&nbsp;безпечний
+                        </h3>
+                        <div class="why-list-item__bottom">
+                            <div class="why-list-bottom-left">
+                                <p class="why-list__descr">Повного заряду акамулятора вистачає для подолання шляху від
+                                    20&nbsp;до
+                                    30&nbsp;км на&nbsp;одному заряді.
+
+                                    Дані батареї мають великий ресурс і&nbsp;надійність, навіть після великої кількості
+                                    циклів
+                                    заряду/розряду зберігають максимальну енергоємність.</p>
+                            </div>
+                            <img class="why-list__img" src="img/scooters3.webp" alt="Фото">
+                        </div>
+                    </li>
+                    <li class="why-list-item">
+                        <h3 class="why-list__title">
+                            <span class="big">04</span>
+                            Електросамокат&nbsp;&mdash; відмінне вкладення
+                        </h3>
+                        <div class="why-list-item__bottom">
+                            <div class="why-list-bottom-left">
+                                <p class="why-list__descr">Справді, для купівлі самокату потрібно вкластися..
+                                    АЛЕ
+                                    Безумовно дешевше палива для вашого автомобіля, яке на&nbsp;порядок дорожче,
+                                    за&nbsp;яке ще
+                                    потрібно стояти в&nbsp;черзі! Вартість електроенергії для зарядки електричного
+                                    самокату
+                                    до
+                                    смішного низька. Це&nbsp;не&nbsp;безкоштовно, але реально дешевше.</p>
+                            </div>
+                            <img class="why-list__img" src="img/scooters4.webp" alt="Фото">
+                        </div>
+                    </li>
+                    <li class="why-list-item">
+                        <h3 class="why-list__title why-list__title--last">
+                            <span class="big">05</span>
+                            <span class="yellow">Електросамокат </span>
+                            &mdash;&nbsp;це&nbsp;весело та&nbsp;легко
+                        </h3>
+                        <div class="why-list-item__bottom why-list-item__bottom--last">
+                            <div class="why-list-images">
+                                <picture>
+                                    <source srcset="img/scooters5.webp">
+                                    <img src="img/scooters5.webp" alt="Фото">
+                                </picture>
+                                <picture>
+                                    <source srcset="img/scooters6.webp">
+                                    <img src="img/scooters6.webp" alt="Фото">
+                                </picture>
+                            </div>
+                            <p class="why-list__descr why-list__descr--last">Коли легко їдеш вулицями міста,
+                                є&nbsp;певне
+                                відчуття потоку, присутності у&nbsp;моменті. Звичайно, це&nbsp;краще, ніж спати
+                                в&nbsp;метро чи
+                                автобусі. Не&nbsp;дивно, що&nbsp;люди люблять&nbsp;їх.</p>
+                            <a href="#footer" class="why-list__link btn">Зателефонувати</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="positive">
+            <div class="container positive-container">
+                <h2 class="positive__title positive__text">Дослідження показало, що&nbsp;85% людей позитивно ставляться
+                    до
+                    електросамокатів.
+                </h2>
+                <p class="positive__text positive__text--last">Зазвичай вони розглядаються як&nbsp;позитивні зміни,
+                    сприятливі для довкілля та&nbsp;одночасно підвищують ефективність.</p>
+            </div>
+        </section>
+        <section id="scooters" class="scooters">
+            <div class="container scooters-container">
+                <h2 class="scooter__title title">Наші електросамокати <svg width="54" height="54" viewBox="0 0 54 54"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.595 36H33.75V33.75C33.75 28.7775 37.7775 24.75 42.75 24.75H44.415L40.14 5.76C39.912 4.7657 39.3544 3.87774 38.5579 3.24049C37.7613 2.60324 36.7726 2.25416 35.7525 2.25H27V6.75H35.7525L38.9025 20.8125H38.88C36.4691 21.5391 34.3092 22.9247 32.6435 24.813C30.9778 26.7013 29.8726 29.0173 29.4525 31.5H17.595C17.0543 29.9668 15.9778 28.6807 14.5637 27.8786C13.1497 27.0765 11.4934 26.8124 9.9 27.135C7.245 27.6525 5.1075 29.835 4.6125 32.49C4.42784 33.4661 4.46078 34.471 4.70898 35.433C4.95717 36.3949 5.4145 37.2903 6.04839 38.0552C6.68227 38.8202 7.47708 39.4359 8.37619 39.8585C9.27529 40.2811 10.2565 40.5001 11.25 40.5C14.175 40.5 16.65 38.61 17.595 36ZM11.25 36C10.0125 36 9 34.9875 9 33.75C9 32.5125 10.0125 31.5 11.25 31.5C12.4875 31.5 13.5 32.5125 13.5 33.75C13.5 34.9875 12.4875 36 11.25 36Z"
+                            fill="#FCB733" />
+                        <path
+                            d="M42.75 27C39.015 27 36 30.015 36 33.75C36 37.485 39.015 40.5 42.75 40.5C46.485 40.5 49.5 37.485 49.5 33.75C49.5 30.015 46.485 27 42.75 27ZM42.75 36C41.5125 36 40.5 34.9875 40.5 33.75C40.5 32.5125 41.5125 31.5 42.75 31.5C43.9875 31.5 45 32.5125 45 33.75C45 34.9875 43.9875 36 42.75 36ZM24.75 45H15.75L29.25 51.75V47.25H38.25L24.75 40.5V45Z"
+                            fill="#FCB733" />
+                    </svg>
+                </h2>
+                <ul class="scooters-list">
+                    <li class="scooters-item">
+                        <img src="img/scooter1.webp" alt="Самокат" class="scooters__img">
+                        <h3 class="scooters__title">KONAR KES-ES2</h3>
+                        <div class="scooters-item__bottom">
+                            <div class="scooters-bottom__left">
+                                <span class="scooters-list__price--old">14&nbsp;990 ₴</span>
+                                <span class="scooters-list__price">13 490₴</span>
+                            </div>
+                            <a href="#1" class="scooters-item__link btn">Докладніше</a>
+                        </div>
+                    </li>
+                    <li class="scooters-item">
+                        <img src="img/scooter2.webp" alt="Самокат" class="scooters__img">
+                        <h3 class="scooters__title">KONAR KES-H04</h3>
+                        <div class="scooters-item__bottom">
+                            <div class="scooters-bottom__left">
+                                <span class="scooters-list__price--old">13&nbsp;990 ₴</span>
+                                <span class="scooters-list__price">11 990₴</span>
+                            </div>
+                            <a href="#2" class="scooters-item__link btn">Докладніше</a>
+                        </div>
+                    </li>
+                    <li class="scooters-item">
+                        <img src="img/scooter3.webp" alt="Самокат" class="scooters__img">
+                        <h3 class="scooters__title">Konar KES-C7</h3>
+                        <div class="scooters-item__bottom">
+                            <div class="scooters-bottom__left">
+                                <span class="scooters-list__price--old">14&nbsp;490 ₴</span>
+                                <span class="scooters-list__price">12 990₴</span>
+                            </div>
+                            <a href="#3" class="scooters-item__link btn">Докладніше</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="choice">
+            <div class="container choice-container">
+                <h2 class="choice__title title">Оберіть для себе найкращий варіант</h2>
+                <ul class="choice-list">
+                    <li id="1" class="choice-list-item">
+                        <div class="choice-swiper">
+                            <div class="choice-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/7.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/8.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/9.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/10.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/11.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/12.webp" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="swiper__btns">
+                                <div class="swiper-button-prev">
+                                    <svg width="15" height="29" viewBox="0 0 15 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 1.5L2 14.5L14 27.5" stroke="#969696" stroke-width="2" />
+                                    </svg>
+
+                                </div>
+                                <div class="swiper-button-next"><svg width="15" height="29" viewBox="0 0 15 29"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.5L13 14.5L1 27.5" stroke="#FCB733" stroke-width="2" />
+                                    </svg></div>
+                            </div>
+                            <div class="choice-slider-nav">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/7.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/8.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/9.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/10.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/11.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/12.webp" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="choice-block__title"> <span>01</span>&nbsp;KONAR KES-ES2</h3>
+                        <div class="choice__descr">
+                            <div class="choice__descr__btns">
+                                <button class="choice__descr__btn active" data-target="1">ОПИС</button>
+                                <button class="choice__descr__btn" data-target="2">ХАРАКТЕРИСТИКА</button>
+                            </div>
+                            <ul class="choice__descr__list">
+                                <li class="choice__desc__item active" data-path="1">
+                                    <p class="choice-list__desc__text">Електросамокати KONAR відрізняються від своїх
+                                        аналогів новими високоякісними матеріалами, легкою вагою, якісною літієвою
+                                        акумуляторною батареєю та&nbsp;відповідають заявленому запасу ходу.
+                                        Електросамокат
+                                        KONAR KES-ES2 має гарне та&nbsp;маневрене управління, а&nbsp;його складна
+                                        конструкція
+                                        робить його зручним для зберігання та&nbsp;перенесення, що&nbsp;дарує комфорт,
+                                        яскраві та
+                                        позитивні емоції при його використанні.
+
+                                        Місткість акумулятора 36V 5.2A, якого вистачає для подолання шляху від
+                                        20&nbsp;до&nbsp;25
+                                        км&nbsp;на&nbsp;одному заряді. Дані батареї мають великий ресурс
+                                        і&nbsp;надійність, навіть
+                                        після великої кількості циклів заряду/розряду зберігають максимальну
+                                        енергоємність.
+
+                                        При вазі самокату 12&nbsp;кг максимально допустиме навантаження його поверхню
+                                        120&nbsp;кг.
+                                    </p>
+                                </li>
+                                <li class="choice__desc__item" data-path="2">
+                                    <p class="choice-list__desc__text"><span>Виробник</span>: KONAR <br>
+                                        <span>Модель</span>: KES-ES2 <br>
+                                        <span>Колеса</span>: 8.5&Prime; <br>
+                                        <span>Колір</span>: чорний <br>
+                                        <span>Розмір</span>: 102 * 43 * 113см; <br>
+                                        <span>Максимальна</span> швидкість: 25-30км/год; <br>
+                                        <span>Час зарядки</span>: 3-6&nbsp;годин; <br>
+                                        <span>Потужність двигуна</span>: 250W; <br>
+                                        <span>Місткість батареї</span>: 36V 5.2A; <br>
+                                        <span>Вага</span>: 12кг; <br>
+                                        <span>Максимальне навантаження</span>: 120&nbsp;кг; <br>
+                                        <span>Запас ходу</span>: 20-25км</p> <br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="choice__btns">
+                            <div class="choice__btns-price">
+                                <span class="choice__btns-price__text scooters-list__price--old">14&nbsp;990 ₴</span>
+                                <span class="choice__btns-price__text scooters-list__price">13 490₴</span>
+                            </div>
+                            <a href="#footer" class="choice__btns__btn btn">Замовити</a>
+                        </div>
+                    </li>
+                    <li id="2" class="choice-list-item">
+                        <div class="choice-swiper">
+                            <div class="choice-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/7.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/8.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/9.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/10.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/11.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/12.webp" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="swiper__btns">
+                                <div class="swiper-button-prev">
+                                    <svg width="15" height="29" viewBox="0 0 15 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 1.5L2 14.5L14 27.5" stroke="#969696" stroke-width="2" />
+                                    </svg>
+
+                                </div>
+                                <div class="swiper-button-next"><svg width="15" height="29" viewBox="0 0 15 29"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.5L13 14.5L1 27.5" stroke="#FCB733" stroke-width="2" />
+                                    </svg></div>
+                            </div>
+                            <div class="choice-slider-nav">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/7.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/8.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/9.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/10.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/11.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/12.webp" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="choice-block__title"> <span>01</span>&nbsp;KONAR KES-ES2</h3>
+                        <div class="choice__descr">
+                            <div class="choice__descr__btns">
+                                <button class="choice__descr__btn active" data-target="3">ОПИС</button>
+                                <button class="choice__descr__btn" data-target="4">ХАРАКТЕРИСТИКА</button>
+                            </div>
+                            <ul class="choice__descr__list">
+                                <li class="choice__desc__item active" data-path="3">
+                                    <p class="choice-list__desc__text">Електросамокати KONAR відрізняються від своїх
+                                        аналогів новими високоякісними матеріалами, легкою вагою, якісною літієвою
+                                        акумуляторною батареєю та&nbsp;відповідають заявленому запасу ходу.
+                                        Електросамокат
+                                        KONAR KES-ES2 має гарне та&nbsp;маневрене управління, а&nbsp;його складна
+                                        конструкція
+                                        робить його зручним для зберігання та&nbsp;перенесення, що&nbsp;дарує комфорт,
+                                        яскраві та
+                                        позитивні емоції при його використанні.
+
+                                        Місткість акумулятора 36V 5.2A, якого вистачає для подолання шляху від
+                                        20&nbsp;до&nbsp;25
+                                        км&nbsp;на&nbsp;одному заряді. Дані батареї мають великий ресурс
+                                        і&nbsp;надійність, навіть
+                                        після великої кількості циклів заряду/розряду зберігають максимальну
+                                        енергоємність.
+
+                                        При вазі самокату 12&nbsp;кг максимально допустиме навантаження його поверхню
+                                        120&nbsp;кг.
+                                    </p>
+                                </li>
+                                <li class="choice__desc__item" data-path="4">
+                                    <p class="choice-list__desc__text"><span>Виробник</span>: KONAR <br>
+                                        <span>Модель</span>: KES-ES2 <br>
+                                        <span>Колеса</span>: 8.5&Prime; <br>
+                                        <span>Колір</span>: чорний <br>
+                                        <span>Розмір</span>: 102 * 43 * 113см; <br>
+                                        <span>Максимальна</span> швидкість: 25-30км/год; <br>
+                                        <span>Час зарядки</span>: 3-6&nbsp;годин; <br>
+                                        <span>Потужність двигуна</span>: 250W; <br>
+                                        <span>Місткість батареї</span>: 36V 5.2A; <br>
+                                        <span>Вага</span>: 12кг; <br>
+                                        <span>Максимальне навантаження</span>: 120&nbsp;кг; <br>
+                                        <span>Запас ходу</span>: 20-25км</p> <br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="choice__btns">
+                            <div class="choice__btns-price">
+                                <span class="choice__btns-price__text scooters-list__price--old">14&nbsp;990 ₴</span>
+                                <span class="choice__btns-price__text scooters-list__price">13 490₴</span>
+                            </div>
+                            <a href="#footer" class="choice__btns__btn btn">Замовити</a>
+                        </div>
+                    </li>
+                    <li id="3" class="choice-list-item">
+                        <div class="choice-swiper">
+                            <div class="choice-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/7.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/8.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/9.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/10.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/11.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/12.webp" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="swiper__btns">
+                                <div class="swiper-button-prev">
+                                    <svg width="15" height="29" viewBox="0 0 15 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 1.5L2 14.5L14 27.5" stroke="#969696" stroke-width="2" />
+                                    </svg>
+
+                                </div>
+                                <div class="swiper-button-next"><svg width="15" height="29" viewBox="0 0 15 29"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.5L13 14.5L1 27.5" stroke="#FCB733" stroke-width="2" />
+                                    </svg></div>
+                            </div>
+                            <div class="choice-slider-nav">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/7.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/8.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/9.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/10.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/11.webp" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/12.webp" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="choice-block__title"> <span>01</span>&nbsp;KONAR KES-ES2</h3>
+                        <div class="choice__descr">
+                            <div class="choice__descr__btns">
+                                <button class="choice__descr__btn active" data-target="5">ОПИС</button>
+                                <button class="choice__descr__btn" data-target="6">ХАРАКТЕРИСТИКА</button>
+                            </div>
+                            <ul class="choice__descr__list">
+                                <li class="choice__desc__item active" data-path="5">
+                                    <p class="choice-list__desc__text">Електросамокати KONAR відрізняються від своїх
+                                        аналогів новими високоякісними матеріалами, легкою вагою, якісною літієвою
+                                        акумуляторною батареєю та&nbsp;відповідають заявленому запасу ходу.
+                                        Електросамокат
+                                        KONAR KES-ES2 має гарне та&nbsp;маневрене управління, а&nbsp;його складна
+                                        конструкція
+                                        робить його зручним для зберігання та&nbsp;перенесення, що&nbsp;дарує комфорт,
+                                        яскраві та
+                                        позитивні емоції при його використанні.
+
+                                        Місткість акумулятора 36V 5.2A, якого вистачає для подолання шляху від
+                                        20&nbsp;до&nbsp;25
+                                        км&nbsp;на&nbsp;одному заряді. Дані батареї мають великий ресурс
+                                        і&nbsp;надійність, навіть
+                                        після великої кількості циклів заряду/розряду зберігають максимальну
+                                        енергоємність.
+
+                                        При вазі самокату 12&nbsp;кг максимально допустиме навантаження його поверхню
+                                        120&nbsp;кг.
+                                    </p>
+                                </li>
+                                <li class="choice__desc__item" data-path="6">
+                                    <p class="choice-list__desc__text"><span>Виробник</span>: KONAR <br>
+                                        <span>Модель</span>: KES-ES2 <br>
+                                        <span>Колеса</span>: 8.5&Prime; <br>
+                                        <span>Колір</span>: чорний <br>
+                                        <span>Розмір</span>: 102 * 43 * 113см; <br>
+                                        <span>Максимальна</span> швидкість: 25-30км/год; <br>
+                                        <span>Час зарядки</span>: 3-6&nbsp;годин; <br>
+                                        <span>Потужність двигуна</span>: 250W; <br>
+                                        <span>Місткість батареї</span>: 36V 5.2A; <br>
+                                        <span>Вага</span>: 12кг; <br>
+                                        <span>Максимальне навантаження</span>: 120&nbsp;кг; <br>
+                                        <span>Запас ходу</span>: 20-25км</p> <br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="choice__btns">
+                            <div class="choice__btns-price">
+                                <span class="choice__btns-price__text scooters-list__price--old">14&nbsp;990 ₴</span>
+                                <span class="choice__btns-price__text scooters-list__price">13 490₴</span>
+                            </div>
+                            <a href="#footer" class="choice__btns__btn btn">Замовити</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="guarantee" class="guarantee">
+            <div class="container guarantee-container">
+                <h2 class="guarantee__title title"><svg width="102" height="102" viewBox="0 0 102 102" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M94.1309 41.0391H68.6309C68.1926 41.0391 67.834 41.3977 67.834 41.8359V46.6172C67.834 47.0555 68.1926 47.4141 68.6309 47.4141H94.1309C94.5691 47.4141 94.9277 47.0555 94.9277 46.6172V41.8359C94.9277 41.3977 94.5691 41.0391 94.1309 41.0391ZM80.7832 54.5859H68.6309C68.1926 54.5859 67.834 54.9445 67.834 55.3828V60.1641C67.834 60.6023 68.1926 60.9609 68.6309 60.9609H80.7832C81.2215 60.9609 81.5801 60.6023 81.5801 60.1641V55.3828C81.5801 54.9445 81.2215 54.5859 80.7832 54.5859ZM47.5435 32.124H43.2305C42.6129 32.124 42.1148 32.6221 42.1148 33.2396V57.9428C42.1148 58.3014 42.2842 58.6301 42.573 58.8393L57.4049 69.6568C57.9029 70.0154 58.6002 69.9158 58.9588 69.4178L61.5187 65.9215V65.9115C61.8773 65.4135 61.7678 64.7162 61.2697 64.3576L48.6492 55.2334V33.2396C48.6592 32.6221 48.1512 32.124 47.5435 32.124Z"
+                            fill="#FCB733" />
+                        <path
+                            d="M80.1656 67.1267H74.4082C73.8504 67.1267 73.3225 67.4155 73.0236 67.8937C71.7586 69.8958 70.2844 71.7485 68.591 73.4419C65.6725 76.3605 62.2758 78.6515 58.5006 80.2452C54.5859 81.8987 50.4322 82.7355 46.149 82.7355C41.8559 82.7355 37.7022 81.8987 33.7975 80.2452C30.0223 78.6515 26.6256 76.3605 23.707 73.4419C20.7885 70.5233 18.4975 67.1267 16.9037 63.3515C15.2502 59.4468 14.4135 55.2931 14.4135 50.9999C14.4135 46.7067 15.2502 42.563 16.9037 38.6484C18.4975 34.8732 20.7885 31.4765 23.707 28.5579C26.6256 25.6394 30.0223 23.3484 33.7975 21.7546C37.7022 20.1011 41.8658 19.2644 46.149 19.2644C50.4422 19.2644 54.5959 20.1011 58.5006 21.7546C62.2758 23.3484 65.6725 25.6394 68.591 28.5579C70.2844 30.2513 71.7586 32.104 73.0236 34.1062C73.3225 34.5843 73.8504 34.8732 74.4082 34.8732H80.1656C80.8529 34.8732 81.2912 34.156 80.9824 33.5484C74.4879 20.629 61.3195 12.2319 46.6172 12.0626C25.0916 11.7937 7.21173 29.4146 7.17188 50.9202C7.13204 72.4657 24.5936 89.9472 46.1391 89.9472C61.0307 89.9472 74.4182 81.5202 80.9824 68.4515C81.2912 67.8439 80.843 67.1267 80.1656 67.1267Z"
+                            fill="#FCB733" />
+                    </svg>
+                    Гарантія
+                </h2>
+                <ul class="why-list">
+                    <li class="why-list-item">
+                        <div class="why-list-item__bottom">
+                            <div class="why-list-bottom-left">
+                                <p class="why-list__descr">
+                                    &middot; Гарантійний термін товару від виробника становить 3&nbsp;місяці
+
+                                    &middot; Шини та&nbsp;камери є&nbsp;витратними частинами, тому гарантії
+                                    на&nbsp;ці&nbsp;деталі не&nbsp;поширюються.
+                                </p>
+                            </div>
+                            <img class="why-list__img" src="img/scooters7.webp" alt="Фото">
+                        </div>
+                    </li>
+                    <li class="why-list-item why-list-item-deliver">
+                        <h2 class="guarantee__title title"><svg width="101" height="76" viewBox="0 0 101 76" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.37859e-08 9.49658C1.37859e-08 6.97793 0.997598 4.56244 2.77333 2.78149C4.54907 1.00053 6.95748 0 9.46875 0H66.2812C68.7925 0 71.2009 1.00053 72.9767 2.78149C74.7524 4.56244 75.75 6.97793 75.75 9.49658V18.9932H82.1888C83.6074 18.9944 85.0077 19.3154 86.286 19.9324C87.5644 20.5493 88.6882 21.4465 89.5744 22.5576L98.9232 34.27C100.268 35.9552 101.001 38.0498 101 40.2085V53.814C101 56.3326 100.002 58.7481 98.2267 60.5291C96.4509 62.31 94.0425 63.3106 91.5312 63.3106H88.375C88.375 66.6688 87.0449 69.8894 84.6772 72.264C82.3096 74.6386 79.0984 75.9727 75.75 75.9727C72.4016 75.9727 69.1904 74.6386 66.8228 72.264C64.4551 69.8894 63.125 66.6688 63.125 63.3106H31.5625C31.5661 64.9983 31.2333 66.6698 30.5836 68.2267C29.9338 69.7836 28.9803 71.1945 27.7791 72.3765C26.5779 73.5584 25.1531 74.4876 23.5887 75.1094C22.0242 75.7312 20.3516 76.033 18.6692 75.9971C16.9867 75.9613 15.3284 75.5884 13.7917 74.9005C12.255 74.2126 10.871 73.2235 9.72092 71.9914C8.57086 70.7593 7.678 69.309 7.09483 67.7258C6.51167 66.1426 6.24997 64.4585 6.32513 62.7724C4.47587 62.1196 2.87423 60.9073 1.74127 59.3026C0.608308 57.698 -0.000105747 55.7802 1.37859e-08 53.814L1.37859e-08 9.49658ZM8.16838 56.7009C9.30968 54.8269 10.9175 53.283 12.8339 52.2208C14.7503 51.1587 16.9093 50.615 19.0986 50.6431C21.288 50.6712 23.4324 51.2702 25.321 52.3811C27.2097 53.4921 28.7776 55.0768 29.8708 56.9795H64.8167C65.9271 55.0566 67.5202 53.4588 69.4375 52.3452V9.49658C69.4375 8.65703 69.105 7.85187 68.5131 7.25822C67.9211 6.66457 67.1183 6.33106 66.2812 6.33106H9.46875C8.63166 6.33106 7.82886 6.66457 7.23694 7.25822C6.64503 7.85187 6.3125 8.65703 6.3125 9.49658V53.814C6.312 54.4233 6.48685 55.0198 6.81605 55.5319C7.14525 56.044 7.61481 56.4499 8.16838 56.7009ZM75.75 50.6485C77.9661 50.6485 80.1431 51.2336 82.0623 52.3449C83.9815 53.4563 85.5752 55.0547 86.6833 56.9795H91.5312C92.3683 56.9795 93.1711 56.646 93.7631 56.0524C94.355 55.4587 94.6875 54.6535 94.6875 53.814V40.2022C94.6862 39.4838 94.4414 38.7873 93.9931 38.2269L84.6506 26.5145C84.3554 26.1437 83.9809 25.8443 83.5548 25.6382C83.1287 25.4322 82.6618 25.3249 82.1888 25.3242H75.75V50.6485ZM18.9375 56.9795C17.2633 56.9795 15.6577 57.6465 14.4739 58.8338C13.2901 60.0211 12.625 61.6315 12.625 63.3106C12.625 64.9897 13.2901 66.6 14.4739 67.7873C15.6577 68.9746 17.2633 69.6416 18.9375 69.6416C20.6117 69.6416 22.2173 68.9746 23.4011 67.7873C24.5849 66.6 25.25 64.9897 25.25 63.3106C25.25 61.6315 24.5849 60.0211 23.4011 58.8338C22.2173 57.6465 20.6117 56.9795 18.9375 56.9795ZM75.75 56.9795C74.0758 56.9795 72.4702 57.6465 71.2864 58.8338C70.1026 60.0211 69.4375 61.6315 69.4375 63.3106C69.4375 64.9897 70.1026 66.6 71.2864 67.7873C72.4702 68.9746 74.0758 69.6416 75.75 69.6416C77.4242 69.6416 79.0298 68.9746 80.2136 67.7873C81.3974 66.6 82.0625 64.9897 82.0625 63.3106C82.0625 61.6315 81.3974 60.0211 80.2136 58.8338C79.0298 57.6465 77.4242 56.9795 75.75 56.9795Z"
+                                    fill="#FCB733" />
+                            </svg>
+                            Доставка
+                        </h2>
+                        <div class="why-list-item__bottom">
+                            <div class="why-list-bottom-left">
+                                <p class="why-list__descr"><svg width="41" height="42" viewBox="0 0 41 42" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.5 40.2188C31.1142 40.2188 39.7188 31.6142 39.7188 21C39.7188 10.3858 31.1142 1.78125 20.5 1.78125C9.88578 1.78125 1.28125 10.3858 1.28125 21C1.28125 31.6142 9.88578 40.2188 20.5 40.2188Z"
+                                            fill="#FCB733" />
+                                        <path
+                                            d="M29.4688 9.46875L16.0156 23.3062L11.5312 18.6937L7.04688 23.3062L16.0156 32.5312L33.9531 14.0813L29.4688 9.46875Z"
+                                            fill="white" />
+                                    </svg>Самовивіз м. Київ</p>
+                                <p class="why-list__descr"><svg width="41" height="42" viewBox="0 0 41 42" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.5 40.2188C31.1142 40.2188 39.7188 31.6142 39.7188 21C39.7188 10.3858 31.1142 1.78125 20.5 1.78125C9.88578 1.78125 1.28125 10.3858 1.28125 21C1.28125 31.6142 9.88578 40.2188 20.5 40.2188Z"
+                                            fill="#FCB733" />
+                                        <path
+                                            d="M29.4688 9.46875L16.0156 23.3062L11.5312 18.6937L7.04688 23.3062L16.0156 32.5312L33.9531 14.0813L29.4688 9.46875Z"
+                                            fill="white" />
+                                    </svg>Відправка новою поштою післяплатою</p>
+                            </div>
+                            <img class="why-list__img" src="img/scooters8.webp" alt="Фото">
+                        </div>
+                    </li>
+                </ul>
+                <div class="guarantee-bottom">
+                    <div class="guarantee-bottom-left">
+                        <img src="img/scooters9.webp" alt="">
+                    </div>
+                    <div class="guarantee-bottom-right">
+                        <span
+                            class="guarantee-bottom-right__text guarantee-bottom-right__text--space">I&nbsp;пам&rsquo;ятай,
+                            електросамокат&nbsp;&mdash; це&nbsp;позитивні емоції!</span>
+                        <span class="guarantee-bottom-right__text">Залишились питання?
+                            Телефонуйте!</span>
+                        <a href="#footer" class="guarantee-bottom-right__link btn">Зателефонувати</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#footer" class="footer__logo header__logo">
+                    <img src="img/logo.svg" alt="Логотип">
+                </a>
+                <span class="footer-contact">зв&rsquo;язатися</span>
+                <a href="tel:+380665220022" class="footer__link">+380 (66) 522 00 22</a>
+                <a href="mailto:esamokat.ukraine@gmail.com"
+                    class="footer__link footer__email">esamokat.ukraine@gmail.com</a>
+
+                <ul class="footer-social">
+                    <li class="footer-social-item"><a href="https://goo.gl/maps/sxjfZDEyQypzLxSh7">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-label="Google Maps" role="img" viewBox="0 0 512 512">
+                                <rect id="a" width="512" height="512" x="0" y="0" rx="15%" fill="#fff" />
+                                <clipPath id="b">
+                                    <use xlink:href="#a" />
+                                </clipPath>
+                                <g clip-path="url(#b)">
+                                    <path fill="#35a85b" d="M0 512V0h512z" />
+                                    <path fill="#5881ca" d="M256 288L32 512h448z" />
+                                    <path fill="#c1c0be" d="M288 256L512 32v448z" />
+                                    <path stroke="#fadb2a" stroke-width="71" d="M0 512L512 0" />
+                                    <path fill="none" stroke="#f2f2f2" stroke-width="22"
+                                        d="M175 173h50a50 54 0 1 1-15-41" />
+                                    <path fill="#de3738"
+                                        d="M353 85a70 70 0 0 1 140 0c0 70-70 70-70 157 0-87-70-87-70-157" />
+                                    <circle cx="423" cy="89" r="25" fill="#7d2426" />
+                                </g>
+                            </svg>
+                        </a></li>
+                    <li class="footer-social-item"><a href="https://instagram.com/esamokat.ukraine?igshid=YmMyMTA2M2Y="
+                            target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-46.0041" y1="634.1208"
+                                    x2="-32.9334" y2="647.1917" gradientTransform="matrix(32 0 0 -32 1519 20757)">
+                                    <stop offset="0" style="stop-color:#FFC107" />
+                                    <stop offset="0.507" style="stop-color:#F44336" />
+                                    <stop offset="0.99" style="stop-color:#9C27B0" />
+                                </linearGradient>
+                                <path style="fill:url(#SVGID_1_);"
+                                    d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192  c88.352,0,160-71.648,160-160V160C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112  V160C48,98.24,98.24,48,160,48h192c61.76,0,112,50.24,112,112V352z" />
+                                <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-42.2971" y1="637.8279"
+                                    x2="-36.6404" y2="643.4846" gradientTransform="matrix(32 0 0 -32 1519 20757)">
+                                    <stop offset="0" style="stop-color:#FFC107" />
+                                    <stop offset="0.507" style="stop-color:#F44336" />
+                                    <stop offset="0.99" style="stop-color:#9C27B0" />
+                                </linearGradient>
+                                <path style="fill:url(#SVGID_2_);"
+                                    d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128  S326.688,128,256,128z M256,336c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80  C336,300.096,300.096,336,256,336z" />
+                                <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-35.5456" y1="644.5793"
+                                    x2="-34.7919" y2="645.3331" gradientTransform="matrix(32 0 0 -32 1519 20757)">
+                                    <stop offset="0" style="stop-color:#FFC107" />
+                                    <stop offset="0.507" style="stop-color:#F44336" />
+                                    <stop offset="0.99" style="stop-color:#9C27B0" />
+                                </linearGradient>
+                                <circle style="fill:url(#SVGID_3_);" cx="393.6" cy="118.4" r="17.056" />
+                            </svg>
+                        </a></li>
+                    <li class="footer-social-item"><a href="https://t.me/everday_biz" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <circle style="fill:#7AA5DA;" cx="256" cy="256" r="256" />
+                                <path style="fill:#5786B5;"
+                                    d="M511.924,250.077L398.283,136.625l-185.108,225.63l133.284,133.284  C443.197,458.988,512,365.535,512,256C512,254.019,511.969,252.045,511.924,250.077z" />
+                                <path style="fill:#FFFFFF;"
+                                    d="M383.717,133.52c10.206-3.982,20.756,4.948,18.515,15.67l-45.77,218.781  c-2.138,10.257-14.188,14.877-22.635,8.671l-69.094-50.717l-35.219,35.961c-6.189,6.31-16.86,3.741-19.515-4.672l-25.41-80.662  l-68.112-20.118c-8.947-2.638-9.464-15.084-0.793-18.48L383.717,133.52z M350.118,182.065c2.982-2.638-0.483-7.292-3.862-5.189  l-147.015,91.177c-2.586,1.603-3.775,4.758-2.862,7.671l20.049,88.04c0.397,1.345,2.327,1.155,2.5-0.241l4.482-67.094  c0.172-1.655,0.965-3.172,2.207-4.275L350.118,182.065z" />
+                                <path style="fill:#9EC2E5;"
+                                    d="M346.257,176.876c3.379-2.103,6.844,2.551,3.862,5.189l-124.5,110.089  c-1.241,1.103-2.034,2.62-2.207,4.275l-4.482,67.094c-0.172,1.396-2.103,1.586-2.5,0.241l-20.049-88.04  c-0.914-2.913,0.276-6.068,2.862-7.671L346.257,176.876z" />
+                                <path style="fill:#FFFFFF;"
+                                    d="M217.154,364.678c-3.241-1.155-5.982-3.741-7.154-7.465l-25.41-80.662l-68.112-20.118  c-8.947-2.638-9.464-15.084-0.793-18.48L383.717,133.52c6.585-2.569,13.326,0.241,16.653,5.448  c-0.621-0.948-1.362-1.827-2.189-2.603L216.343,284.81v6.499l-1-0.724l1,40.926v32.823c0.259,0.121,0.534,0.224,0.81,0.31V364.678  L217.154,364.678z" />
+                                <path style="fill:#D1D1D1;"
+                                    d="M402.525,145.518c0.052,1.172-0.034,2.413-0.293,3.672l-45.77,218.781   c-2.138,10.257-14.188,14.877-22.635,8.671l-69.094-50.717l-48.39-34.616v-6.499l181.838-148.446   c0.827,0.776,1.569,1.655,2.189,2.603c0.121,0.207,0.241,0.396,0.362,0.586c0.103,0.207,0.224,0.414,0.328,0.603   c0.103,0.207,0.207,0.414,0.293,0.621c0.103,0.224,0.19,0.431,0.276,0.655c0.069,0.19,0.155,0.396,0.224,0.621   c0.224,0.672,0.396,1.362,0.517,2.086C402.439,144.587,402.491,145.036,402.525,145.518z" />
+                                <path style="fill:#D1D1D1;"
+                                    d="M264.733,325.925l-35.219,35.961c-0.293,0.293-0.603,0.586-0.914,0.845   c-0.31,0.259-0.621,0.483-0.948,0.707c-0.017,0.017-0.017,0.017-0.017,0.017c-0.655,0.431-1.327,0.793-2.034,1.086   c-0.362,0.138-0.707,0.276-1.069,0.362c-1.5,0.448-3.034,0.569-4.551,0.414c-0.396-0.034-0.793-0.103-1.172-0.172   c-0.052,0-0.103-0.017-0.155-0.034c-0.379-0.103-0.759-0.207-1.138-0.328c-0.121-0.034-0.241-0.069-0.362-0.138l-0.81-33.133   v-40.202L264.733,325.925z" />
+                                <path style="fill:#DADDE0;"
+                                    d="M228.6,362.73c-0.31,0.259-0.621,0.5-0.948,0.724v-0.017   C227.98,363.213,228.29,362.989,228.6,362.73z" />
+                                <path style="fill:#DADDE0;"
+                                    d="M227.652,363.437v0.017c0,0,0-0.017-0.017,0C227.635,363.454,227.635,363.454,227.652,363.437z" />
+                                <path style="fill:#DADDE0;"
+                                    d="M225.601,364.541c0.707-0.293,1.379-0.655,2.034-1.086   C226.98,363.885,226.29,364.247,225.601,364.541z" />
+                                <path style="fill:#DADDE0;"
+                                    d="M219.981,365.316c1.517,0.155,3.051,0.034,4.551-0.414c-1.086,0.345-2.207,0.5-3.327,0.5   c-0.345,0-0.69-0.017-1.017-0.052C220.119,365.351,220.05,365.351,219.981,365.316z" />
+                                <path style="fill:#FFFFFF;"
+                                    d="M221.205,365.402c-0.345,0-0.69-0.017-1.017-0.052C220.515,365.385,220.86,365.402,221.205,365.402z   " />
+                                <path style="fill:#FFFFFF;"
+                                    d="M219.981,365.316c0.069,0.034,0.138,0.034,0.207,0.034c-0.362-0.017-0.69-0.069-1.034-0.138   C219.429,365.265,219.705,365.299,219.981,365.316z" />
+                                <path style="fill:#DADDE0;"
+                                    d="M219.981,365.316c-0.276-0.017-0.552-0.052-0.827-0.103c-0.121-0.017-0.241-0.034-0.345-0.069   C219.188,365.213,219.584,365.282,219.981,365.316z" />
+                                <path style="fill:#DADDE0;"
+                                    d="M217.516,364.782c0.379,0.121,0.759,0.224,1.138,0.328c-0.155-0.034-0.31-0.069-0.465-0.103   c-0.069-0.017-0.138-0.034-0.19-0.069C217.843,364.903,217.671,364.851,217.516,364.782z" />
+                                <path style="fill:#FFFFFF;"
+                                    d="M218.188,365.006c0.155,0.034,0.31,0.069,0.465,0.103   C218.498,365.092,218.343,365.058,218.188,365.006z" />
+                                <path style="fill:#FFFFFF;"
+                                    d="M217.516,364.782c0.155,0.069,0.328,0.121,0.483,0.155c-0.259-0.052-0.517-0.138-0.776-0.241   C217.326,364.73,217.412,364.765,217.516,364.782z" />
+                                <path style="fill:#DADDE0;"
+                                    d="M217.516,364.782c-0.103-0.017-0.19-0.052-0.293-0.086c-0.017,0.017-0.052,0-0.069-0.017v-0.034  C217.274,364.713,217.395,364.747,217.516,364.782z" />
+                                <path style="fill:#D1D1D1;"
+                                    d="M216.343,331.511l0.81,33.133c-0.276-0.086-0.552-0.19-0.81-0.31V331.511z" />
+                                <polygon style="fill:#DADDE0;"
+                                    points="216.343,291.309 216.343,331.511 215.343,290.585 " />
+                                <path style="fill:#ADBCC9;"
+                                    d="M350.118,182.065l-124.5,110.089c-1.241,1.103-2.034,2.62-2.207,4.275l-4.474,67.1  c-0.172,1.396-2.103,1.586-2.517,0.241l-20.04-88.045c-0.914-2.913,0.276-6.068,2.862-7.671l147.015-91.177  C349.636,174.773,353.101,179.428,350.118,182.065z" />
+                            </svg>
+                        </a></li>
+                </ul>
+                <small class="copy">&copy;&nbsp;2034
+                    esamokat.net
+                    Всі права захищені</small>
+                <a href="#footer" class="footer__public">Публічна оферта
+                </a>
+            </div>
+            <div class="footer-right">
+                <nav class="nav footer-nav">
+                    <ul class="header-list footer-list">
+                        <li class="header-list__item"><a href="#footer" class="footer__link header__link">Чому ми?</a>
+                        </li>
+                        <li class="header-list__item"><a href="#footer" class="footer__link header__link">Наші
+                                самокати</a></li>
+                        <li class="header-list__item"><a href="#footer" class="footer__link header__link">Гарантія</a>
+                        </li>
+                        <li class="header-list__item"><a href="#footer" class="footer__link header__link">Доставка</a>
+                        </li>
+                        <li class="header-list__item"><a href="#footer" class="footer__link header__link">Контакти</a>
+                        </li>
+                    </ul>
+                    <button disabled class="footer__btn__call guarantee-bottom-right__link btn">Замовити
+                        дзвінок</button>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
